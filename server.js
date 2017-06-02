@@ -38,20 +38,20 @@ app.use(express.static(__dirname + '/public'));
 
 app.get('/', (req, res) => {
      res.render('home.hbs', {
-        pageTitle: 'Home page',
+        pageTitle: 'Homess',
         welcomeMessage: 'Welcome to this website!'
     });
 });
 
 app.get('/about', (req, res) => {
     res.render('about.hbs', {
-        pageTitle: 'About page'
+        pageTitle: 'About'
     });    
 });
 
 app.get('/projects', (req, res) => {
     res.render('projects.hbs', {
-        pageTitle: 'Projects page'
+        pageTitle: 'Projects'
     });    
 });
 
